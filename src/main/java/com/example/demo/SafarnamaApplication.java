@@ -11,10 +11,10 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @EnableJpaRepositories(basePackages = "repository")
 @ComponentScan(basePackages = {"controller", "service", "repository", "entity", "dto", "mapper"})
 
-public class SafarnameGroup4Application {
+public class SafarnamaApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SafarnameGroup4Application.class, args);
+		SpringApplication.run(SafarnamaApplication.class, args);
 	}
 
 }
