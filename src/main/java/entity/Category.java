@@ -8,6 +8,9 @@ import jakarta.persistence.Id;
 import jakarta.persistence.OneToMany;
 
 import java.util.*;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -28,6 +31,7 @@ public class Category {
 	private Boolean flag;
 	
 	@OneToMany(mappedBy = "category",cascade = CascadeType.ALL)
+	@JsonIgnore
 	private List<Subcategory> subcategories;
 	
 }

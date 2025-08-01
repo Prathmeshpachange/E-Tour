@@ -22,7 +22,7 @@ public class Departure {
     
     @ManyToOne
     @JoinColumn(name = "package_id")
-    private Package tourPackage;
+    private TourPackage  tourPackage;
     
     @OneToMany(mappedBy = "departure", cascade = CascadeType.ALL)
     private List<Booking> bookings;

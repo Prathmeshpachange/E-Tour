@@ -18,5 +18,5 @@ public class Itinerary {
     
     @ManyToOne
     @JoinColumn(name = "package_id")
-    private Package tourPackage;
+    private TourPackage tourPackage;
 }

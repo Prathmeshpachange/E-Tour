@@ -2,6 +2,7 @@ package entity;
 
 import jakarta.persistence.*;
 import lombok.*;
+import entity.Customer;
 
 import java.time.LocalDateTime;
 

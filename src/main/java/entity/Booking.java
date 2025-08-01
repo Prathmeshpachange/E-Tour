@@ -29,7 +29,7 @@ public class Booking {
     
     @ManyToOne
     @JoinColumn(name = "package_id")
-    private Package tourPackage;  
+    private TourPackage  tourPackage;  
     
     @ManyToOne
     @JoinColumn(name = "departure_id")
