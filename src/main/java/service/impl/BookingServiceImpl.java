@@ -89,4 +89,11 @@ public class BookingServiceImpl implements BookingService {
     public void deleteBooking(Integer id) {
         bookingRepository.deleteById(id);
     }
+    
+    @Override
+    public BookingDTO getBookingWithPassengers(Integer bookingId) {
+        Booking booking = bookingRepository.findByIdWithPassengers(bookingId);
+        return Mapper.MapToBookingDTO(booking);
+    }
+
 }

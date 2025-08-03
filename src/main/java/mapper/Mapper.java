@@ -1,28 +1,20 @@
 package mapper;
 
+import java.util.Arrays;
 import java.util.stream.Collectors;
 
-import dto.BookingDTO;
-import dto.CategoryDTO;
-import dto.CostDTO;
-import dto.CustomerDTO;
-import dto.DepartureDTO;
-import dto.ItineraryDTO;
-import dto.PackageDTO;
-import dto.PassengerDTO;
-import dto.SubcategoryDTO;
-import entity.Booking;
-import entity.Category;
-import entity.Cost;
-import entity.Customer;
-import entity.Departure;
-import entity.Itinerary;
-import entity.Passenger;
-import entity.Subcategory;
-import entity.TourPackage;
+import dto.*;
+import entity.*;
 
+/**
+ * Common Mapper class for converting between Entity and DTO objects.
+ * Grouped by module: Category, Subcategory, Package, Itinerary, etc.
+ */
 public class Mapper {
 
+    /* ------------------------- CATEGORY MAPPERS ------------------------- */
+
+    // Convert Entity -> DTO
     public static CategoryDTO MaptoCategoryDTO(Category category) {
         if (category == null) return null;
 
@@ -33,9 +25,18 @@ public class Mapper {
         dto.setCategoryImagePath(category.getCategoryImagePath());
         dto.setFlag(category.getFlag());
 
+        // Map subcategories of category if present
+        if (category.getSubcategories() != null) {
+            dto.setSubcategories(
+                category.getSubcategories().stream()
+                    .map(Mapper::MaptoSubcategoryDto)
+                    .collect(Collectors.toList())
+            );
+        }
         return dto;
     }
 
+    // Convert DTO -> Entity
     public static Category MaptoCategory(CategoryDTO dto) {
         if (dto == null) return null;
 
@@ -48,7 +49,39 @@ public class Mapper {
 
         return category;
     }
-    
+
+    /* ------------------------- SUBCATEGORY MAPPERS ------------------------- */
+
+    // Convert Entity -> DTO
+    public static SubcategoryDTO MaptoSubcategoryDto(Subcategory subcat) {
+        SubcategoryDTO dto = new SubcategoryDTO();
+        dto.setSubcategoryId(subcat.getSubcategoryId());
+        dto.setSubcategoryName(subcat.getSubcategoryName());
+        dto.setSubcategoryImagePath(subcat.getSubcategoryImagePath());
+        dto.setFlag(subcat.getFlag());
+        dto.setCategoryId(subcat.getCategory() != null ? subcat.getCategory().getCategoryId() : null);
+        return dto;
+    }
+
+    // Convert DTO -> Entity
+    public static Subcategory MaptoSubcategory(SubcategoryDTO dto) {
+        Subcategory subcat = new Subcategory();
+        subcat.setSubcategoryId(dto.getSubcategoryId());
+        subcat.setSubcategoryName(dto.getSubcategoryName());
+        subcat.setSubcategoryImagePath(dto.getSubcategoryImagePath());
+        subcat.setFlag(dto.getFlag());
+
+        if (dto.getCategoryId() != null) {
+            Category cat = new Category();
+            cat.setCategoryId(dto.getCategoryId());
+            subcat.setCategory(cat);
+        }
+        return subcat;
+    }
+
+    /* ------------------------- PACKAGE MAPPERS ------------------------- */
+
+    // Convert Entity -> DTO
     public static PackageDTO MapToPackageDTO(TourPackage pkg) {
         if (pkg == null) return null;
 
@@ -60,31 +93,33 @@ public class Mapper {
         dto.setDurationDays(pkg.getDurationDays());
         dto.setStartDate(pkg.getStartDate());
         dto.setEndDate(pkg.getEndDate());
-       
         dto.setSubcategoryId(pkg.getSubcategory() != null ? pkg.getSubcategory().getSubcategoryId() : null);
+
+        // Map itineraries
         if (pkg.getItineraries() != null) {
             dto.setItineraries(pkg.getItineraries().stream()
                 .map(Mapper::mapToItineraryDTO)
                 .collect(Collectors.toList()));
         }
+
+        // Map costs
         if (pkg.getCosts() != null) {
             dto.setCosts(pkg.getCosts().stream()
                 .map(Mapper::mapToCostDTO)
                 .collect(Collectors.toList()));
         }
-//        dto.setDepartures(null);
+
+        // Map departures
         if (pkg.getDepartures() != null) {
             dto.setDepartures(pkg.getDepartures().stream()
                 .map(Mapper::mapToDepartureDTO)
                 .collect(Collectors.toList()));
         }
 
-        
-
         return dto;
     }
 
-    
+    // Convert DTO -> Entity
     public static TourPackage MapToPackage(PackageDTO dto, Subcategory subcategory) {
         if (dto == null) return null;
 
@@ -97,6 +132,8 @@ public class Mapper {
         pkg.setStartDate(dto.getStartDate());
         pkg.setEndDate(dto.getEndDate());
         pkg.setSubcategory(subcategory);
+
+        // Set itineraries
         if (dto.getItineraries() != null) {
             pkg.setItineraries(dto.getItineraries().stream()
                 .map(itineraryDTO -> {
@@ -105,86 +142,56 @@ public class Mapper {
                     return itinerary;
                 }).collect(Collectors.toList()));
         }
+
+        // Set departures
         if (dto.getDepartures() != null) {
             pkg.setDepartures(dto.getDepartures().stream()
                 .map(departureDTO -> {
-                	Departure departure = Mapper.mapToDeparture(departureDTO, pkg); 
+                    Departure departure = Mapper.mapToDeparture(departureDTO, pkg);
                     departure.setTourPackage(pkg);
                     return departure;
                 }).collect(Collectors.toList()));
         }
-        
-        
 
         return pkg;
     }
-    
-    
-    
+
+    /* ------------------------- ITINERARY MAPPERS ------------------------- */
+
+    // Convert Entity -> DTO
     public static ItineraryDTO mapToItineraryDTO(Itinerary itinerary) {
         if (itinerary == null) return null;
+
         ItineraryDTO dto = new ItineraryDTO();
         dto.setItineraryId(itinerary.getItineraryId());
         dto.setDayNo(itinerary.getDayNo());
         dto.setDayDetail(itinerary.getDayDetail());
+        if (itinerary.getTourPackage() != null) {
+            dto.setPackageId(itinerary.getTourPackage().getPackageId());
+        }
         return dto;
     }
 
+    // Convert DTO -> Entity
     public static Itinerary mapToItinerary(ItineraryDTO dto) {
         if (dto == null) return null;
-        Itinerary itinerary = new Itinerary();
-        itinerary.setItineraryId(dto.getItineraryId());
-        itinerary.setDayNo(dto.getDayNo());
-        itinerary.setDayDetail(dto.getDayDetail());
-        return itinerary;
-    }
-
-
-    public static SubcategoryDTO MaptoSubcategoryDto(Subcategory subcat) {
-		SubcategoryDTO subDto = new SubcategoryDTO();
-		subDto.setSubcategoryId(subcat.getSubcategoryId());
-		subDto.setSubcategoryName(subcat.getSubcategoryName());
-		subDto.setSubcategoryImagePath(subcat.getSubcategoryImagePath());
-		
-		return subDto;
-	}
-	public static Subcategory MaptoSubcategory(SubcategoryDTO subcatDto) {
-		Subcategory subcat = new Subcategory();
-		subcat.setSubcategoryId(subcatDto.getSubcategoryId());
-		subcat.setSubcategoryName(subcatDto.getSubcategoryName());
-		subcat.setSubcategoryImagePath(subcatDto.getSubcategoryImagePath());
-		subcat.setFlag(subcatDto.getFlag());
-		return subcat;
-	}
-
-	
-	  // ✅ Itinerary Mappings
-    public static ItineraryDTO MapToItineraryDTO(Itinerary itinerary) {
-        if (itinerary == null) return null;
-
-        ItineraryDTO dto = new ItineraryDTO();
-        dto.setItineraryId(itinerary.getItineraryId());
-        dto.setDayNo(itinerary.getDayNo());
-        dto.setDayDetail(itinerary.getDayDetail());
-        dto.setPackageId(itinerary.getTourPackage() != null ? itinerary.getTourPackage().getPackageId() : null);
-
-        return dto;
-    }
-
-    public static Itinerary MapToItinerary(ItineraryDTO dto, TourPackage tourPackage) {
-        if (dto == null) return null;
 
         Itinerary itinerary = new Itinerary();
         itinerary.setItineraryId(dto.getItineraryId());
         itinerary.setDayNo(dto.getDayNo());
         itinerary.setDayDetail(dto.getDayDetail());
-        itinerary.setTourPackage(tourPackage);
+
+        if (dto.getPackageId() != null) {
+            TourPackage pkg = new TourPackage();
+            pkg.setPackageId(dto.getPackageId());
+            itinerary.setTourPackage(pkg);
+        }
 
         return itinerary;
     }
-    
-    
-    // ✅ Customer Mappings
+
+    /* ------------------------- CUSTOMER MAPPERS ------------------------- */
+
     public static CustomerDTO MapToCustomerDTO(Customer customer) {
         if (customer == null) return null;
 
@@ -224,77 +231,89 @@ public class Mapper {
 
         return customer;
     }
-    
-    
-    
-    //passenger
-    
-    public static PassengerDTO MapToPassengerDTO(Passenger passenger) {
+
+    /* ------------------------- PASSENGER MAPPERS ------------------------- */
+
+    public static PassengerDTO mapToPassengerDTO(Passenger passenger) {
         if (passenger == null) return null;
 
         PassengerDTO dto = new PassengerDTO();
         dto.setPaxId(passenger.getPaxId());
         dto.setPaxName(passenger.getPaxName());
         dto.setPaxBirthdate(passenger.getPaxBirthdate());
-        dto.setPaxType(passenger.getPaxType());
         dto.setPaxAmount(passenger.getPaxAmount());
-        dto.setBookingId(passenger.getBooking() != null ? passenger.getBooking().getBookingId() : null);
+
+        if (passenger.getBooking() != null) {
+            dto.setBookingId(passenger.getBooking().getBookingId());
+        }
+
+        if (passenger.getPaxType() != null) {
+            dto.setPaxTypeId(passenger.getPaxType().ordinal());
+            dto.setPaxTypeName(passenger.getPaxType().getDisplayName());
+        }
 
         return dto;
     }
 
-    public static Passenger MapToPassenger(PassengerDTO dto, Booking booking) {
+    public static Passenger mapToPassenger(PassengerDTO dto, Booking booking) {
         if (dto == null) return null;
 
         Passenger passenger = new Passenger();
         passenger.setPaxId(dto.getPaxId());
         passenger.setPaxName(dto.getPaxName());
         passenger.setPaxBirthdate(dto.getPaxBirthdate());
-        passenger.setPaxType(dto.getPaxType());
         passenger.setPaxAmount(dto.getPaxAmount());
         passenger.setBooking(booking);
 
+        if (dto.getPaxTypeName() != null && !dto.getPaxTypeName().isEmpty()) {
+            try {
+                PaxType paxType = Arrays.stream(PaxType.values())
+                        .filter(p -> p.getDisplayName().equalsIgnoreCase(dto.getPaxTypeName()))
+                        .findFirst().orElse(null);
+                passenger.setPaxType(paxType);
+            } catch (Exception e) {
+                passenger.setPaxType(null);
+            }
+        }
+
         return passenger;
     }
-    
-    
-    //Booking
-    
- // ✅ Booking DTO to Entity
-    public static Booking MapToBooking(BookingDTO bookingDTO) {
-        if (bookingDTO == null) return null;
+
+    /* ------------------------- BOOKING MAPPERS ------------------------- */
+
+    public static Booking MapToBooking(BookingDTO dto) {
+        if (dto == null) return null;
 
         Booking booking = new Booking();
-        booking.setBookingId(bookingDTO.getBookingId());
-        booking.setBookingDate(bookingDTO.getBookingDate());
-        booking.setNoOfPax(bookingDTO.getNoOfPax());
-        booking.setTourAmount(bookingDTO.getTourAmount());
-        booking.setTaxes(bookingDTO.getTaxes());
-        booking.setTotalAmount(bookingDTO.getTotalAmount());
-        booking.setPaymentStatus(bookingDTO.getPaymentStatus());
+        booking.setBookingId(dto.getBookingId());
+        booking.setBookingDate(dto.getBookingDate());
+        booking.setNoOfPax(dto.getNoOfPax());
+        booking.setTourAmount(dto.getTourAmount());
+        booking.setTaxes(dto.getTaxes());
+        booking.setTotalAmount(dto.getTotalAmount());
+        booking.setPaymentStatus(dto.getPaymentStatus());
 
-        if (bookingDTO.getCustomerId() != null) {
+        if (dto.getCustomerId() != null) {
             Customer customer = new Customer();
-            customer.setCustId(bookingDTO.getCustomerId());
+            customer.setCustId(dto.getCustomerId());
             booking.setCustomer(customer);
         }
 
-        if (bookingDTO.getPackageId() != null) {
-            TourPackage tourPackage = new TourPackage();
-            tourPackage.setPackageId(bookingDTO.getPackageId());
-            booking.setTourPackage(tourPackage);
+        if (dto.getPackageId() != null) {
+            TourPackage pkg = new TourPackage();
+            pkg.setPackageId(dto.getPackageId());
+            booking.setTourPackage(pkg);
         }
 
-        if (bookingDTO.getDepartureId() != null) {
+        if (dto.getDepartureId() != null) {
             Departure departure = new Departure();
-            departure.setDepartureId(bookingDTO.getDepartureId());
+            departure.setDepartureId(dto.getDepartureId());
             booking.setDeparture(departure);
         }
 
         return booking;
     }
 
-    // ✅ Booking Entity to DTO
     public static BookingDTO MapToBookingDTO(Booking booking) {
         if (booking == null) return null;
 
@@ -316,8 +335,16 @@ public class Mapper {
         if (booking.getDeparture() != null)
             dto.setDepartureId(booking.getDeparture().getDepartureId());
 
+        if (booking.getPassengers() != null) {
+            dto.setPassengers(booking.getPassengers().stream()
+                .map(Mapper::mapToPassengerDTO)
+                .collect(Collectors.toList()));
+        }
+
         return dto;
     }
+
+    /* ------------------------- COST MAPPERS ------------------------- */
 
     public static CostDTO mapToCostDTO(Cost cost) {
         if (cost == null) return null;
@@ -330,6 +357,7 @@ public class Mapper {
         dto.setChildWithoutBed(cost.getChildWithoutBed());
         dto.setValidFrom(cost.getValidFrom());
         dto.setValidTo(cost.getValidTo());
+
         return dto;
     }
 
@@ -344,10 +372,12 @@ public class Mapper {
         cost.setChildWithoutBed(dto.getChildWithoutBed());
         cost.setValidFrom(dto.getValidFrom());
         cost.setValidTo(dto.getValidTo());
+
         return cost;
     }
-    
-    
+
+    /* ------------------------- DEPARTURE MAPPERS ------------------------- */
+
     public static DepartureDTO mapToDepartureDTO(Departure departure) {
         if (departure == null) return null;
 
@@ -356,13 +386,14 @@ public class Mapper {
         dto.setDepartureDate(departure.getDepartDate());
         dto.setEndDate(departure.getEndDate());
         dto.setNoOfDays(departure.getNoOfDays());
-        
+
         if (departure.getTourPackage() != null) {
             dto.setPackageId(departure.getTourPackage().getPackageId());
         }
+
         return dto;
     }
-    
+
     public static Departure mapToDeparture(DepartureDTO dto, TourPackage pkg) {
         if (dto == null) return null;
 
@@ -375,6 +406,5 @@ public class Mapper {
 
         return departure;
     }
-
 
 }

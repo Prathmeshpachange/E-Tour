@@ -1,6 +1,6 @@
 package controller;
 
-import dto.BookingDTO;
+import dto.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -22,9 +22,12 @@ public class BookingController {
     }
 
     @GetMapping("/{id}")
+    
     public ResponseEntity<BookingDTO> get(@PathVariable Integer id) {
-        return ResponseEntity.ok(bookingService.getBookingById(id));
+        BookingDTO dto = bookingService.getBookingById(id);
+        return dto != null ? ResponseEntity.ok(dto) : ResponseEntity.notFound().build();
     }
+
 
     @GetMapping
     public ResponseEntity<List<BookingDTO>> getAll() {
@@ -41,4 +44,21 @@ public class BookingController {
         bookingService.deleteBooking(id);
         return ResponseEntity.ok("Booking deleted successfully");
     }
+    
+    @GetMapping("/{id}/passengers")
+    public ResponseEntity<List<PassengerDTO>> getPassengersForBooking(@PathVariable Integer id) {
+        BookingDTO dto = bookingService.getBookingWithPassengers(id);
+       
+        if (dto == null || dto.getPassengers() == null) {
+            return ResponseEntity.notFound().build();
+        }
+        return ResponseEntity.ok(dto.getPassengers());
+    }
+    
+    @GetMapping("/test")
+    public ResponseEntity<String> test() {
+        return ResponseEntity.ok("Controller is working");
+    }
+
+
 }

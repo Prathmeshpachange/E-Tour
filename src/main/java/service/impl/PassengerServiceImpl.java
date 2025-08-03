@@ -26,15 +26,15 @@ public class PassengerServiceImpl implements PassengerService {
     @Override
     public PassengerDTO savePassenger(PassengerDTO passengerDTO) {
         Booking booking = bookingRepository.findById(passengerDTO.getBookingId()).orElse(null);
-        Passenger passenger = Mapper.MapToPassenger(passengerDTO, booking);
+        Passenger passenger = Mapper.mapToPassenger(passengerDTO, booking);
         Passenger saved = passengerRepository.save(passenger);
-        return Mapper.MapToPassengerDTO(saved);
+        return Mapper.mapToPassengerDTO(saved);
     }
 
     @Override
     public PassengerDTO getPassengerById(Integer id) {
         Optional<Passenger> passenger = passengerRepository.findById(id);
-        return passenger.map(Mapper::MapToPassengerDTO).orElse(null);
+        return passenger.map(Mapper::mapToPassengerDTO).orElse(null);
     }
 
     @Override
@@ -43,7 +43,7 @@ public class PassengerServiceImpl implements PassengerService {
         List<PassengerDTO> dtos = new ArrayList<>();
 
         for (Passenger p : passengers) {
-            dtos.add(Mapper.MapToPassengerDTO(p));
+            dtos.add(Mapper.mapToPassengerDTO(p));
         }
 
         return dtos;
@@ -63,7 +63,7 @@ public class PassengerServiceImpl implements PassengerService {
             existing.setBooking(booking);
 
             Passenger updated = passengerRepository.save(existing);
-            return Mapper.MapToPassengerDTO(updated);
+            return Mapper.mapToPassengerDTO(updated);
         }
 
         return null;

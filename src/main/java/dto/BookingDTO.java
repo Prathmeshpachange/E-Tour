@@ -20,4 +20,5 @@ public class BookingDTO {
     private Integer packageId;
     private Integer departureId;
     private List<PassengerDTO> passengers;
+    
 }

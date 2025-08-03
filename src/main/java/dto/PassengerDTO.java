@@ -1,9 +1,9 @@
 package dto;
 
-import entity.PaxType;
 import lombok.*;
-
 import java.time.LocalDate;
+
+import entity.PaxType;
 
 @Getter
 @Setter
@@ -13,7 +13,10 @@ public class PassengerDTO {
     private Integer paxId;
     private String paxName;
     private LocalDate paxBirthdate;
-    private PaxType paxType;
+    private Integer paxTypeId;     
+    private String paxTypeName;     
     private Double paxAmount;
     private Integer bookingId;
+    private PaxType paxType;  
+
 }
