@@ -2,6 +2,7 @@ package service.impl;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -30,4 +31,22 @@ public class PackageServiceImpl implements PackageService {
 
         return packageDTOs;
     }
+    
+    
+    @Override
+    public PackageDTO getPackageById(Integer id) {
+        TourPackage tourPackage = packageRepository.findById(id)
+            .orElseThrow(() -> new RuntimeException("Package not found"));
+        return Mapper.MapToPackageDTO(tourPackage);
+    }
+
+    
+    @Override
+    public List<PackageDTO> getPackagesBySubcategory(Integer subcategoryId) {
+        List<TourPackage> packages = packageRepository.findBySubcategorySubcategoryId(subcategoryId);
+        return packages.stream()
+                       .map(Mapper::MapToPackageDTO)  
+                       .collect(Collectors.toList());
+    }
+
 }

@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.*;
 
 import repository.PackageRepository;
 import repository.SubcategoryRepository;
+import service.PackageService;
 
 @RestController
 @RequestMapping("/api/packages")
@@ -24,6 +25,9 @@ public class PackageController {
 
     @Autowired
     private SubcategoryRepository subcategoryRepository;
+    
+    @Autowired
+    private PackageService packService;
 
     @GetMapping
     public ResponseEntity<List<PackageDTO>> getAllPackages() {
@@ -33,7 +37,22 @@ public class PackageController {
                                         .collect(Collectors.toList());
         return ResponseEntity.ok(dtos);
     }
+    
+    
+    @GetMapping("/subcategory/{subcategoryId}")
+    public ResponseEntity<List<PackageDTO>> getPackagesBySubcategory(@PathVariable Integer subcategoryId) {
+        List<PackageDTO> filtered = packService.getPackagesBySubcategory(subcategoryId);
+        return ResponseEntity.ok(filtered);
+    }
 
+    @CrossOrigin(origins = "http://localhost:5173")
+    @GetMapping("/{id}")
+    public ResponseEntity<PackageDTO> getPackageById(@PathVariable Integer id) {
+        PackageDTO dto = packService.getPackageById(id);
+        return ResponseEntity.ok(dto);
+    }
+
+  
     @PostMapping
     public ResponseEntity<PackageDTO> addPackage(@RequestBody PackageDTO dto) {
         Subcategory subcategory = subcategoryRepository.findById(dto.getSubcategoryId())

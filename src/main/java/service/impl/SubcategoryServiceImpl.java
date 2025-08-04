@@ -61,4 +61,10 @@ public class SubcategoryServiceImpl implements SubcategoryService{
 	        }
 	        return null;
 	    }
+	    
+		@Override
+		public List<SubcategoryDTO> getByCategoryId(Integer categoryId) {
+		    List<Subcategory> subcategories = subCatRepo.findByCategory_CategoryId(categoryId);
+		    return subcategories.stream().map(Mapper::MaptoSubcategoryDto).toList();
+		}
 }

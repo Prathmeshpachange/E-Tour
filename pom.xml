@@ -63,12 +63,22 @@
 		</dependency>
 		
 		<dependency>
-    <groupId>org.projectlombok</groupId>
-    <artifactId>lombok</artifactId>
-    <version>1.18.30</version> <!-- or latest version -->
-    <scope>provided</scope>
-</dependency>
+    	<groupId>org.projectlombok</groupId>
+    		<artifactId>lombok</artifactId>
+    		<version>1.18.30</version> <!-- or latest version -->
+    		<scope>provided</scope>
+		</dependency>
 
+
+   		<dependency>
+    		<groupId>org.springframework.boot</groupId>
+    		<artifactId>spring-boot-starter-aop</artifactId>
+		</dependency>
+		
+		<dependency>
+    		<groupId>org.springframework.boot</groupId>
+    		<artifactId>spring-boot-starter-log4j2</artifactId>
+		</dependency>
 		
 	</dependencies>
 

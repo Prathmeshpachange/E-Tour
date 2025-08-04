@@ -57,4 +57,10 @@ public class SubCategoryController {
         SubcategoryDTO updated = sub_cat_service.updateSubcategory(id, subcategoryDTO);
         return ResponseEntity.ok(updated);
     }
+    
+	@GetMapping("/category/{categoryId}")
+	public ResponseEntity<List<SubcategoryDTO>> getByCategory(@PathVariable Integer categoryId) {
+	    List<SubcategoryDTO> list = sub_cat_service.getByCategoryId(categoryId);
+	    return ResponseEntity.ok(list);
+	}
 }

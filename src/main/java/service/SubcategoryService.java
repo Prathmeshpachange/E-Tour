@@ -8,4 +8,6 @@ public interface SubcategoryService {
 	 SubcategoryDTO createSubcategory(SubcategoryDTO subcategoryDTO);
 	 void deleteSubcategory(int id);
 	 SubcategoryDTO updateSubcategory(int id, SubcategoryDTO subcategoryDTO);
+	 List<SubcategoryDTO> getByCategoryId(Integer categoryId);
+
 }
