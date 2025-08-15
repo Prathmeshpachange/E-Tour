@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/bookings")
-@CrossOrigin
+@CrossOrigin(origins="*")
 public class BookingController {
 
     @Autowired
@@ -60,5 +60,13 @@ public class BookingController {
         return ResponseEntity.ok("Controller is working");
     }
 
-
+    @PutMapping("/{id}/payment")
+    public ResponseEntity<String> updatePaymentStatus(@PathVariable Integer id, @RequestParam String status) {
+        boolean updated = bookingService.updatePaymentStatus(id, status);
+        if (updated) {
+            return ResponseEntity.ok("Payment status updated successfully");
+        } else {
+            return ResponseEntity.notFound().build();
+        }
+    }
 }

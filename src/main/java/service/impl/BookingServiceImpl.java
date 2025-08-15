@@ -96,4 +96,17 @@ public class BookingServiceImpl implements BookingService {
         return Mapper.MapToBookingDTO(booking);
     }
 
+    @Override
+    public boolean updatePaymentStatus(Integer bookingId, String status) {
+        Optional<Booking> bookingOpt = bookingRepository.findById(bookingId);
+        if (bookingOpt.isPresent()) {
+            Booking booking = bookingOpt.get();
+            booking.setPaymentStatus(status);
+            bookingRepository.save(booking);
+            return true;
+        }
+        return false;
+    }
+
+    
 }

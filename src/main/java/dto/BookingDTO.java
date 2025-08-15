@@ -1,8 +1,10 @@
 package dto;
 
 import lombok.*;
+
 import java.time.LocalDateTime;
 import java.util.List;
+import entity.Passenger;
 
 @Getter
 @Setter

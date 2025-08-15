@@ -10,5 +10,6 @@ public interface BookingService {
     BookingDTO updateBooking(Integer bookingId, BookingDTO bookingDTO);
     void deleteBooking(Integer bookingId);
     BookingDTO getBookingWithPassengers(Integer bookingId);
-    
+    boolean updatePaymentStatus(Integer bookingId, String status);
+
 }

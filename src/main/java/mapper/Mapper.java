@@ -1,10 +1,12 @@
 package mapper;
 
 import java.util.Arrays;
+import java.util.List;
 import java.util.stream.Collectors;
 
 import dto.*;
 import entity.*;
+import entity.Passenger;
 
 /**
  * Common Mapper class for converting between Entity and DTO objects.
@@ -14,7 +16,6 @@ public class Mapper {
 
     /* ------------------------- CATEGORY MAPPERS ------------------------- */
 
-    // Convert Entity -> DTO
     public static CategoryDTO MaptoCategoryDTO(Category category) {
         if (category == null) return null;
 
@@ -25,7 +26,6 @@ public class Mapper {
         dto.setCategoryImagePath(category.getCategoryImagePath());
         dto.setFlag(category.getFlag());
 
-        // Map subcategories of category if present
         if (category.getSubcategories() != null) {
             dto.setSubcategories(
                 category.getSubcategories().stream()
@@ -36,7 +36,6 @@ public class Mapper {
         return dto;
     }
 
-    // Convert DTO -> Entity
     public static Category MaptoCategory(CategoryDTO dto) {
         if (dto == null) return null;
 
@@ -52,7 +51,6 @@ public class Mapper {
 
     /* ------------------------- SUBCATEGORY MAPPERS ------------------------- */
 
-    // Convert Entity -> DTO
     public static SubcategoryDTO MaptoSubcategoryDto(Subcategory subcat) {
         SubcategoryDTO dto = new SubcategoryDTO();
         dto.setSubcategoryId(subcat.getSubcategoryId());
@@ -63,7 +61,6 @@ public class Mapper {
         return dto;
     }
 
-    // Convert DTO -> Entity
     public static Subcategory MaptoSubcategory(SubcategoryDTO dto) {
         Subcategory subcat = new Subcategory();
         subcat.setSubcategoryId(dto.getSubcategoryId());
@@ -81,7 +78,6 @@ public class Mapper {
 
     /* ------------------------- PACKAGE MAPPERS ------------------------- */
 
-    // Convert Entity -> DTO
     public static PackageDTO MapToPackageDTO(TourPackage pkg) {
         if (pkg == null) return null;
 
@@ -95,21 +91,18 @@ public class Mapper {
         dto.setEndDate(pkg.getEndDate());
         dto.setSubcategoryId(pkg.getSubcategory() != null ? pkg.getSubcategory().getSubcategoryId() : null);
 
-        // Map itineraries
         if (pkg.getItineraries() != null) {
             dto.setItineraries(pkg.getItineraries().stream()
                 .map(Mapper::mapToItineraryDTO)
                 .collect(Collectors.toList()));
         }
 
-        // Map costs
         if (pkg.getCosts() != null) {
             dto.setCosts(pkg.getCosts().stream()
                 .map(Mapper::mapToCostDTO)
                 .collect(Collectors.toList()));
         }
 
-        // Map departures
         if (pkg.getDepartures() != null) {
             dto.setDepartures(pkg.getDepartures().stream()
                 .map(Mapper::mapToDepartureDTO)
@@ -119,7 +112,6 @@ public class Mapper {
         return dto;
     }
 
-    // Convert DTO -> Entity
     public static TourPackage MapToPackage(PackageDTO dto, Subcategory subcategory) {
         if (dto == null) return null;
 
@@ -133,7 +125,6 @@ public class Mapper {
         pkg.setEndDate(dto.getEndDate());
         pkg.setSubcategory(subcategory);
 
-        // Set itineraries
         if (dto.getItineraries() != null) {
             pkg.setItineraries(dto.getItineraries().stream()
                 .map(itineraryDTO -> {
@@ -143,7 +134,6 @@ public class Mapper {
                 }).collect(Collectors.toList()));
         }
 
-        // Set departures
         if (dto.getDepartures() != null) {
             pkg.setDepartures(dto.getDepartures().stream()
                 .map(departureDTO -> {
@@ -158,7 +148,6 @@ public class Mapper {
 
     /* ------------------------- ITINERARY MAPPERS ------------------------- */
 
-    // Convert Entity -> DTO
     public static ItineraryDTO mapToItineraryDTO(Itinerary itinerary) {
         if (itinerary == null) return null;
 
@@ -172,7 +161,6 @@ public class Mapper {
         return dto;
     }
 
-    // Convert DTO -> Entity
     public static Itinerary mapToItinerary(ItineraryDTO dto) {
         if (dto == null) return null;
 
@@ -309,6 +297,19 @@ public class Mapper {
             Departure departure = new Departure();
             departure.setDepartureId(dto.getDepartureId());
             booking.setDeparture(departure);
+        }
+
+        if (dto.getPassengers() != null) {
+            List<entity.Passenger> passengers = dto.getPassengers().stream().map(p -> {
+                entity.Passenger passenger = new entity.Passenger();
+                passenger.setPaxName(p.getPaxName());
+                passenger.setPaxBirthdate(p.getPaxBirthdate());
+                passenger.setPaxType(p.getPaxType());
+                passenger.setPaxAmount(p.getPaxAmount());
+                passenger.setBooking(booking);
+                return passenger;
+            }).collect(Collectors.toList());
+            booking.setPassengers(passengers);
         }
 
         return booking;
