@@ -1,0 +1,1188 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\services\\emailserviceclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\services\\emailserviceclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\models\\safarnamadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\models\\safarnamadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\dtos\\bookingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\dtos\\bookingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\repositories\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\repositories\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\dtos\\packagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\dtos\\packagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\dtos\\passengerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\dtos\\passengerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\controllers\\passengercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\controllers\\passengercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\controllers\\subcategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\controllers\\subcategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\profiles\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\profiles\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\models\\passenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\models\\passenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\models\\paxtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\models\\paxtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\dtos\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\dtos\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\dtos\\subcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\dtos\\subcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\dtos\\costdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\dtos\\costdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\services\\passengerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\services\\passengerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\repositories\\passengerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\repositories\\passengerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\services\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\services\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\repositories\\packagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\repositories\\packagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\repositories\\ipackagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\repositories\\ipackagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\dtos\\signuprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\dtos\\signuprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\services\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\services\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\services\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\services\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\repositories\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\repositories\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\repositories\\authenticationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\repositories\\authenticationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\repositories\\iauthenticationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\repositories\\iauthenticationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\dtos\\signupresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\dtos\\signupresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\services\\packageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\services\\packageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\services\\ipackageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\services\\ipackageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\controllers\\packagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\controllers\\packagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\repositories\\isubcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\repositories\\isubcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\services\\icostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\services\\icostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\repositories\\ipassengerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\repositories\\ipassengerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\services\\ipassengerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\services\\ipassengerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\services\\subcategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\services\\subcategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\services\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\services\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\safarnamaapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\safarnamaapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\models\\package.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\models\\package.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\repositories\\subcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\repositories\\subcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\controllers\\costcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\controllers\\costcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\services\\costservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\services\\costservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\dtos\\departuredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\dtos\\departuredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\dtos\\itinerarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\dtos\\itinerarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\repositories\\ibookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\repositories\\ibookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\repositories\\costrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\repositories\\costrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\services\\isubcategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\services\\isubcategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\services\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\services\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\repositories\\icostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\repositories\\icostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\models\\cost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\models\\cost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\models\\subcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\models\\subcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\safarnamaapplication.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\safarnamaapplication.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\models\\authentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\models\\authentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|d:\\final_etour_project\\e-tour\\dotnet_backend\\safarnamaapplication\\safarnamaapplication\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E7DF9F-7D38-4825-9A6F-F967CCCBA73B}|SafarnamaApplication\\SafarnamaApplication.csproj|solutionrelative:safarnamaapplication\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Controllers\\BookingController.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Controllers\\BookingController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T12:40:43.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Program.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Program.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Program.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Program.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAAAHwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T15:55:02.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmailServiceClient.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Services\\EmailServiceClient.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Services\\EmailServiceClient.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Services\\EmailServiceClient.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Services\\EmailServiceClient.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T06:32:55.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Properties\\launchSettings.json",
+              "RelativeToolTip": "SafarnamaApplication\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-10T16:28:34.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\appsettings.json",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\appsettings.json",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\appsettings.json",
+              "RelativeToolTip": "SafarnamaApplication\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-10T15:53:19.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Models\\Category.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Models\\Category.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Models\\Category.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T15:51:53.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SafarnamadbContext.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Models\\SafarnamadbContext.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Models\\SafarnamadbContext.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Models\\SafarnamadbContext.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Models\\SafarnamadbContext.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAADwvy4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T15:36:34.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Services\\CustomerService.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Services\\CustomerService.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Services\\CustomerService.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Services\\CustomerService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBgAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T11:36:58.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BookingDTO.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\DTOs\\BookingDTO.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\DTOs\\BookingDTO.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\DTOs\\BookingDTO.cs",
+              "RelativeToolTip": "SafarnamaApplication\\DTOs\\BookingDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T12:36:58.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CustomerDTO.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\DTOs\\CustomerDTO.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\DTOs\\CustomerDTO.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\DTOs\\CustomerDTO.cs",
+              "RelativeToolTip": "SafarnamaApplication\\DTOs\\CustomerDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T11:34:33.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BookingRepository.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Repositories\\BookingRepository.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Repositories\\BookingRepository.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Repositories\\BookingRepository.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Repositories\\BookingRepository.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAkwAMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T12:31:24.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PackageDTO.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\DTOs\\PackageDTO.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\DTOs\\PackageDTO.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\DTOs\\PackageDTO.cs",
+              "RelativeToolTip": "SafarnamaApplication\\DTOs\\PackageDTO.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwAMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T06:25:55.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PassengerDTO.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\DTOs\\PassengerDTO.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\DTOs\\PassengerDTO.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\DTOs\\PassengerDTO.cs",
+              "RelativeToolTip": "SafarnamaApplication\\DTOs\\PassengerDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T15:03:01.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PassengerController.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Controllers\\PassengerController.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Controllers\\PassengerController.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Controllers\\PassengerController.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Controllers\\PassengerController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T15:13:51.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SubcategoryController.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Controllers\\SubcategoryController.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Controllers\\SubcategoryController.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Controllers\\SubcategoryController.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Controllers\\SubcategoryController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T06:01:16.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Controllers\\CustomerController.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T11:37:31.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T17:31:16.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T03:11:09.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Passenger.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Models\\Passenger.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Models\\Passenger.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Models\\Passenger.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Models\\Passenger.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T15:51:10.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Profiles\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Profiles\\MappingProfile.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Profiles\\MappingProfile.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Profiles\\MappingProfile.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAIBJwEQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T07:00:48.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Models\\Booking.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Models\\Booking.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Models\\Booking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T15:56:03.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CategoryDTO.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\DTOs\\CategoryDTO.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\DTOs\\CategoryDTO.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\DTOs\\CategoryDTO.cs",
+              "RelativeToolTip": "SafarnamaApplication\\DTOs\\CategoryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T16:53:50.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PaxType.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Models\\PaxType.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Models\\PaxType.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Models\\PaxType.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Models\\PaxType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T08:20:12.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\DTOs\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\DTOs\\LoginResponse.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\DTOs\\LoginResponse.cs",
+              "RelativeToolTip": "SafarnamaApplication\\DTOs\\LoginResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T02:54:48.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SubcategoryDTO.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\DTOs\\SubcategoryDTO.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\DTOs\\SubcategoryDTO.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\DTOs\\SubcategoryDTO.cs",
+              "RelativeToolTip": "SafarnamaApplication\\DTOs\\SubcategoryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T05:48:26.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CostDTO.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\DTOs\\CostDTO.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\DTOs\\CostDTO.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\DTOs\\CostDTO.cs",
+              "RelativeToolTip": "SafarnamaApplication\\DTOs\\CostDTO.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T10:43:18.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "PassengerService.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Services\\PassengerService.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Services\\PassengerService.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Services\\PassengerService.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Services\\PassengerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T15:10:18.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PassengerRepository.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Repositories\\PassengerRepository.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Repositories\\PassengerRepository.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Repositories\\PassengerRepository.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Repositories\\PassengerRepository.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAwwAMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T15:09:50.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Services\\CategoryService.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Services\\CategoryService.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Services\\CategoryService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T17:28:38.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Services\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Services\\ICategoryService.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Services\\ICategoryService.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Services\\ICategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T17:28:02.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "PackageRepository.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Repositories\\PackageRepository.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Repositories\\PackageRepository.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Repositories\\PackageRepository.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Repositories\\PackageRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T06:27:46.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IPackageRepository.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Repositories\\IPackageRepository.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Repositories\\IPackageRepository.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Repositories\\IPackageRepository.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Repositories\\IPackageRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwA4AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T06:27:13.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "SignupRequest.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\DTOs\\SignupRequest.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\DTOs\\SignupRequest.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\DTOs\\SignupRequest.cs",
+              "RelativeToolTip": "SafarnamaApplication\\DTOs\\SignupRequest.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAA0wBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T02:55:12.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Services\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Services\\AuthenticationService.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Services\\AuthenticationService.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Services\\AuthenticationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T03:08:19.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Services\\JwtService.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Services\\JwtService.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Services\\JwtService.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Services\\JwtService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T03:05:39.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IAuthenticationService.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Services\\IAuthenticationService.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Services\\IAuthenticationService.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Services\\IAuthenticationService.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Services\\IAuthenticationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T03:07:50.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IJwtService.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Services\\IJwtService.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Services\\IJwtService.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Services\\IJwtService.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Services\\IJwtService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T03:01:42.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AuthenticationRepository.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Repositories\\AuthenticationRepository.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Repositories\\AuthenticationRepository.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Repositories\\AuthenticationRepository.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Repositories\\AuthenticationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T02:58:36.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IAuthenticationRepository.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Repositories\\IAuthenticationRepository.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Repositories\\IAuthenticationRepository.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Repositories\\IAuthenticationRepository.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Repositories\\IAuthenticationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T02:57:42.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Repositories\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Repositories\\CustomerRepository.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Repositories\\CustomerRepository.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Repositories\\CustomerRepository.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAIBJwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T11:36:04.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ICustomerRepository.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Repositories\\ICustomerRepository.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Repositories\\ICustomerRepository.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Repositories\\ICustomerRepository.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Repositories\\ICustomerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T11:35:29.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "SignupResponse.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\DTOs\\SignupResponse.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\DTOs\\SignupResponse.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\DTOs\\SignupResponse.cs",
+              "RelativeToolTip": "SafarnamaApplication\\DTOs\\SignupResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T02:55:50.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\DTOs\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\DTOs\\LoginRequest.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\DTOs\\LoginRequest.cs",
+              "RelativeToolTip": "SafarnamaApplication\\DTOs\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T02:53:27.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IPackageService.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Services\\IPackageService.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Services\\IPackageService.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Services\\IPackageService.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Services\\IPackageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T06:28:42.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "PackageService.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Services\\PackageService.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Services\\PackageService.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Services\\PackageService.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Services\\PackageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T06:29:28.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "PackageController.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Controllers\\PackageController.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Controllers\\PackageController.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Controllers\\PackageController.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Controllers\\PackageController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAswAoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T14:53:40.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ISubcategoryRepository.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Repositories\\ISubcategoryRepository.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Repositories\\ISubcategoryRepository.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Repositories\\ISubcategoryRepository.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Repositories\\ISubcategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T05:49:36.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ICostService.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Services\\ICostService.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Services\\ICostService.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Services\\ICostService.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Services\\ICostService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T11:15:38.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "IPassengerRepository.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Repositories\\IPassengerRepository.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Repositories\\IPassengerRepository.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Repositories\\IPassengerRepository.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Repositories\\IPassengerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T15:09:38.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "IPassengerService.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Services\\IPassengerService.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Services\\IPassengerService.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Services\\IPassengerService.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Services\\IPassengerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T15:10:12.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "SubcategoryService.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Services\\SubcategoryService.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Services\\SubcategoryService.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Services\\SubcategoryService.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Services\\SubcategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T06:00:20.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "SafarnamaApplication.csproj",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\SafarnamaApplication.csproj",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\SafarnamaApplication.csproj",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\SafarnamaApplication.csproj",
+              "RelativeToolTip": "SafarnamaApplication\\SafarnamaApplication.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-10T15:24:07.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "IBookingService.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Services\\IBookingService.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Services\\IBookingService.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Services\\IBookingService.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Services\\IBookingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T12:31:20.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "SubcategoryRepository.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Repositories\\SubcategoryRepository.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Repositories\\SubcategoryRepository.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Repositories\\SubcategoryRepository.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Repositories\\SubcategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T05:57:56.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "CostController.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Controllers\\CostController.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Controllers\\CostController.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Controllers\\CostController.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Controllers\\CostController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T11:17:19.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Package.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Models\\Package.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Models\\Package.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Models\\Package.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Models\\Package.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAUwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T06:23:24.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "CostService.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Services\\CostService.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Services\\CostService.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Services\\CostService.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Services\\CostService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T11:16:13.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "DepartureDTO.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\DTOs\\DepartureDTO.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\DTOs\\DepartureDTO.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\DTOs\\DepartureDTO.cs",
+              "RelativeToolTip": "SafarnamaApplication\\DTOs\\DepartureDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T12:47:28.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "ItineraryDTO.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\DTOs\\ItineraryDTO.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\DTOs\\ItineraryDTO.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\DTOs\\ItineraryDTO.cs",
+              "RelativeToolTip": "SafarnamaApplication\\DTOs\\ItineraryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T12:47:23.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "BookingService.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Services\\BookingService.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Services\\BookingService.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Services\\BookingService.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Services\\BookingService.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T12:31:00.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "IBookingRepository.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Repositories\\IBookingRepository.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Repositories\\IBookingRepository.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Repositories\\IBookingRepository.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Repositories\\IBookingRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T12:32:13.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "CostRepository.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Repositories\\CostRepository.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Repositories\\CostRepository.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Repositories\\CostRepository.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Repositories\\CostRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T11:10:39.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "ISubcategoryService.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Services\\ISubcategoryService.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Services\\ISubcategoryService.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Services\\ISubcategoryService.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Services\\ISubcategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T05:58:55.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "ICustomerService.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Services\\ICustomerService.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Services\\ICustomerService.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Services\\ICustomerService.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Services\\ICustomerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T11:36:33.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Repositories\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Repositories\\ICategoryRepository.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Repositories\\ICategoryRepository.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Repositories\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T17:26:10.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Repositories\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Repositories\\CategoryRepository.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Repositories\\CategoryRepository.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Repositories\\CategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T17:27:20.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Models\\Customer.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Models\\Customer.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Models\\Customer.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAuwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T11:32:02.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "ICostRepository.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Repositories\\ICostRepository.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Repositories\\ICostRepository.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Repositories\\ICostRepository.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Repositories\\ICostRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T11:10:05.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "Cost.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Models\\Cost.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Models\\Cost.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Models\\Cost.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Models\\Cost.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T10:44:48.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "Subcategory.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Models\\Subcategory.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Models\\Subcategory.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Models\\Subcategory.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Models\\Subcategory.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAkwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T05:37:29.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "SafarnamaApplication",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\SafarnamaApplication.csproj",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\SafarnamaApplication.csproj",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\SafarnamaApplication.csproj",
+              "RelativeToolTip": "SafarnamaApplication\\SafarnamaApplication.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-10T18:05:23.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Authentication.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Models\\Authentication.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Models\\Authentication.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Models\\Authentication.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Models\\Authentication.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T15:55:58.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "SafarnamaApplication\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\Final_ETour_Project\\E-Tour\\DotNet_Backend\\SafarnamaApplication\\SafarnamaApplication\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "SafarnamaApplication\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T16:06:39.487Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

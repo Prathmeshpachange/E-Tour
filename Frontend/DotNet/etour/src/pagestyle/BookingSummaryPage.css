@@ -1,0 +1,138 @@
+/* Overall container */
+.summary-container {
+  max-width: 1000px;
+  margin: 60px auto; /* Prevent it from sticking to navbar or footer */
+  padding: 30px;
+  background: linear-gradient(145deg, #f5f7fa, #c3cfe2); /* soft gradient */
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Headings */
+.summary-container h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+  color: #003366;
+}
+
+.summary-container h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #444;
+  margin-bottom: 25px;
+}
+
+/* Table styles */
+.summary-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+  background-color: white;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.summary-container th,
+.summary-container td {
+  padding: 12px 15px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  font-size: 0.95rem;
+  word-break: break-word;
+}
+
+.summary-container thead {
+  background-color: #003366;
+  color: white;
+  font-weight: bold;
+}
+
+.summary-container tbody tr:nth-child(even) {
+  background-color: #f0f4f8;
+}
+
+/* Price summary styling */
+.price-summary {
+  background-color: #ffffffcc;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.price-summary p {
+  margin: 8px 0;
+}
+
+.price-summary strong {
+  font-size: 1.3rem;
+  color: #003366;
+}
+
+/* Button */
+.summary-container button {
+  display: block;
+  margin: 0 auto;
+  padding: 12px 30px;
+  font-size: 1rem;
+  background-color: #003366;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.summary-container button:hover {
+  background-color: #0055aa;
+}
+
+/* Responsive table */
+@media screen and (max-width: 768px) {
+  .summary-container {
+    padding: 20px;
+  }
+
+  .summary-container table,
+  .summary-container thead,
+  .summary-container tbody,
+  .summary-container th,
+  .summary-container td,
+  .summary-container tr {
+    display: block;
+  }
+
+  .summary-container thead {
+    display: none;
+  }
+
+  .summary-container td {
+    text-align: left;
+    padding: 10px;
+    border: none;
+    position: relative;
+  }
+
+  .summary-container td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    top: 10px;
+    font-weight: bold;
+    color: #555;
+    width: 120px;
+  }
+
+  .summary-container td:nth-of-type(1)::before { content: "#"; }
+  .summary-container td:nth-of-type(2)::before { content: "Name"; }
+  .summary-container td:nth-of-type(3)::before { content: "DOB"; }
+  .summary-container td:nth-of-type(4)::before { content: "Mobile"; }
+  .summary-container td:nth-of-type(5)::before { content: "Email"; }
+  .summary-container td:nth-of-type(6)::before { content: "Passenger Type"; }
+  .summary-container td:nth-of-type(7)::before { content: "Price"; }
+}

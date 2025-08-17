@@ -1,0 +1,22 @@
+/* Hide scrollbar but allow scroll */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f2f5f7;
+  overflow-y: scroll;
+  scrollbar-width: none; /* Firefox */
+}
+
+body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+.category-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #3768c5, #85e7e7);
+  display: flex;
+  justify-content: center;
+  padding: 50px 20px;
+  box-sizing: border-box;
+}
