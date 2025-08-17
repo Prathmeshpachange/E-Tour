@@ -1,0 +1,91 @@
+.booking-container {
+  background: linear-gradient(to right, #e0f7fa, #f1f8e9);
+  min-height: 100vh;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.trip-info {
+  background-color: #004d40;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.form-heading {
+  font-size: 2rem;
+  margin: 1.5rem 0;
+  color: #004d40;
+}
+
+.passenger-card {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 900px;
+}
+
+.passenger-fields {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.passenger-fields input,
+.passenger-fields select {
+  flex: 1 1 180px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.remove-btn {
+  background: #e53935;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 50%;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.remove-btn:hover {
+  background: #b71c1c;
+}
+
+.form-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.form-buttons button {
+  padding: 12px 20px;
+  background-color: #00796b;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.form-buttons button:hover {
+  background-color: #004d40;
+}
+
+.error-text {
+  color: red;
+  font-size: 0.8rem;
+  margin-top: -5px;
+  margin-bottom: 5px;
+}

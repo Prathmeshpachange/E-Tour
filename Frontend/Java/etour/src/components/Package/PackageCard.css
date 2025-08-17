@@ -1,0 +1,109 @@
+
+
+.avail-package{
+    justify-items: center;
+}
+
+.package-list{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* Individual package card */
+.package-card {
+    width: 280px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    transition: transform 0.3s ease;
+}
+
+.package-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Card image */
+div>.package-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    aspect-ratio: 16/9;
+    margin: 0 !important;
+}
+
+/* Card content */
+.package-content {
+    padding: 12px;
+}
+
+.package-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.package-description {
+    font-size: 13px;
+    color: #666;
+    margin: 6px 0;
+}
+
+.package-duration {
+    font-size: 12px;
+    color: #888;
+}
+
+/* Footer with rating and button */
+.package-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+/* Rating */
+.package-rating {
+    color: #f39c12;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+
+.star-icon {
+    margin-right: 4px;
+    font-size: 14px;
+}
+
+/* Explore Button */
+.explore-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 12px;
+    transition: background-color 0.3s;
+}
+
+.explore-btn:hover {
+    background-color: #218838;
+}
+
+/* Responsive design for small screens */
+@media (max-width: 768px) {
+    .package-container {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .package-card {
+        width: 100%;
+    }
+}

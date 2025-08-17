@@ -1,0 +1,151 @@
+/* 🌍 Page Background */
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #ba781a, #b0b772);
+  font-family: 'Poppins', sans-serif;
+}
+
+/* 🧳 Main Container */
+.package-detail {
+  max-width: 960px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.08);
+  background: #d46b6b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 📸 Package Image */
+.package-image {
+  width: 500px !important;
+  height: 300px !important;
+  object-fit: cover;
+  
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+  transition: transform 0.4s ease;
+  margin-bottom: 25px;
+}
+
+.package-image:hover {
+  transform: scale(1.05);
+}
+
+/* 📝 Title and Description Block */
+.package-detail h2,
+.package-detail p {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 10px 20px;
+  border-radius: 12px;
+  margin: 8px auto;
+  display: inline-block;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  max-width: 90%;
+}
+
+/* 🎯 General Section Styling */
+.section {
+  width: 100%;
+  border-radius: 16px;
+  padding: 20px;
+  margin: 6px 0; /* Small gap between sections */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  color: #333;
+  transition: transform 0.3s ease;
+}
+
+.section:hover {
+  transform: translateY(-2px);
+}
+
+/* 🎨 Different Backgrounds Per Section */
+.section:nth-of-type(1) {
+  background: linear-gradient(135deg, #ffe0b2, #ffcc80); /* Itinerary - orange-ish */
+}
+
+.section:nth-of-type(2) {
+  background: linear-gradient(135deg, #c8e6c9, #a5d6a7); /* Cost - green */
+}
+
+.section:nth-of-type(3) {
+  background: linear-gradient(135deg, #bbdefb, #90caf9); /* Departures - blue */
+}
+
+/* 🧾 Section Headings */
+.section h3 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  color: #2c2c2c;
+}
+
+/* 📄 List Styling */
+.section ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.section li {
+  padding: 6px 0;
+  font-weight: 500;
+}
+
+/* 🧭 Itinerary Grid (Cards per Day) */
+.itinerary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 12px;
+}
+
+.itinerary-day-card {
+  background: #ffffffee;
+  border-radius: 12px;
+  padding: 14px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.itinerary-day-card:hover {
+  transform: translateY(-4px);
+}
+
+.itinerary-day-header {
+  background-color: #fb8c00;
+  color: white;
+  text-align: center;
+  padding: 6px;
+  font-weight: bold;
+  font-size: 1.05rem;
+  border-radius: 8px 8px 0 0;
+}
+
+.itinerary-day-body {
+  padding: 10px;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+/* ✅ Booking Button */
+.book-btn {
+  margin: 40px auto 0;
+  display: block;
+  padding: 14px 32px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background: linear-gradient(to right, #ff6a00, #ee0979);
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
+}
+
+.book-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}

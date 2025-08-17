@@ -1,0 +1,109 @@
+/* General layout */
+.auth-wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.auth-container {
+  background: #fff;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  padding: 30px;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Form styles */
+.form-box {
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Input styles */
+input, select, textarea {
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border 0.2s ease;
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: #4facfe;
+  outline: none;
+}
+
+/* Grid layout for signup form */
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+/* Address textarea */
+textarea {
+  resize: vertical;
+  min-height: 60px;
+}
+
+/* Button styling */
+button {
+  background: #4facfe;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: #00c6ff;
+}
+
+/* Toggle link */
+p {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+}
+
+p span {
+  color: #4facfe;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+p span:hover {
+  color: #007be5;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+}
